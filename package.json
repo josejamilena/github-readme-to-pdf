@@ -1,0 +1,36 @@
+{
+    "name": "github-readme-to-pdf",
+    "version": "1.0.0",
+    "description": "Convert github `readme.md` to PDF and save in local",
+    "license": "MIT",
+    "repository": "https://github.com/jaysingh/github-readme-to-pdf",
+    "author": {
+        "name": "Jayram Singh",
+        "email": "jayram.chandan@gmail.com",
+        "url": "http://github.com/jaysingh"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "files": [
+        "index.js"
+    ],
+    "dependencies": {
+	    "markdown-pdf": "*",
+	    "request": "*"
+	},
+    "keywords": [
+        "readme.md",
+        "pdf",
+        "convert-to-pdf",
+        "download",
+        "readme-to-pdf",
+        "github",
+        "github-readme.md",
+        "data",
+        ".md-to-pdf"
+    ]
+}
